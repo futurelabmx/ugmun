@@ -1,7 +1,7 @@
 {
     "title": "Business Casual",
     "name": "startbootstrap-business-casual",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "description": "A casual HTML website theme for businesses built with Bootstrap",
     "keywords": [
         "css",
@@ -26,7 +26,7 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
     },
     "dependencies": {
-        "bootstrap": "4.1.1",
+        "bootstrap": "4.1.2",
         "jquery": "3.3.1"
     },
     "devDependencies": {
