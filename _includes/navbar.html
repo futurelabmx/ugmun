@@ -1,0 +1,36 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html"><img class="" src="img/ugmun_logo.png" alt="" height="40px"> UGMUN 2019</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav mx-auto">
+			<li class="nav-item active px-lg-4 {% if '/' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="/">Inicio</a></a>
+			</li>
+			<li class="nav-item px-lg-4 {% if '/acerca-de' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="/acerca-de">Acerca de</a>
+			</li>
+			<!-- <li class="nav-item px-lg-4 {% if '/equipo' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="equipo">Equipo</a>
+			</li> -->
+			<!-- <li class="nav-item px-lg-4 {% if '/comites' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="comites">Comités</a>
+			</li> -->
+			<li class="nav-item px-lg-4 {% if '/material' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="material">Material</a>
+			</li>
+			<li class="nav-item px-lg-4 {% if '/contacto' == page.url %}active{% endif %}">
+				<a class="nav-link text-uppercase text-expanded" href="contacto">Contacto</a>
+			</li>
+			<li class="nav-item px-lg-4">
+				<div class="intro-button mx-auto">
+					<a class="btn btn-primary" href="registro">Registro</a>
+				</div>
+			</li>
+		</ul>
+		</div>
+	</div>
+</nav>
